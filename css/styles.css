@@ -12,7 +12,10 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
   background-color: var(--bcg-list-color);
+
   font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 ul {
@@ -81,10 +84,14 @@ a {
 }
 .hero-title {
   color: #ffffff;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
+
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /* Button order*/
 button {
@@ -133,22 +140,30 @@ button {
   line-height: 1.14;
 }
 .features .fitures-text {
-  font-size: 14px;
-  line-height: 1.71;
 }
 /* Photos of main duties */
-.gallery-section {
+.gallery-section > h2 {
+  color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.66;
+
+  text-align: center;
 }
 
 /* Our team */
 .team-section {
   background-color: var(--bcg-second-section-color);
 }
-.team-section > .our-team {
+.our-team {
   color: var(--title-text-color);
+
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
+
+  text-align: center;
 }
 .team-section .name {
   color: var(--title-text-color);
