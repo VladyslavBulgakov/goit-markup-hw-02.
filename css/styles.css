@@ -137,8 +137,6 @@ button {
 .duties-section {
 }
 
-
-}
 /* Team */
 .team-section {
   background-color: var(--bcg-second-section-color);
@@ -209,8 +207,7 @@ footer {
 }
 
 /* Main portfolio */
-.main-portfolio{
-
+.main-portfolio {
 }
 /* Portfoio buttons */
 .buttons-section {
@@ -229,31 +226,28 @@ footer {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-.title-hidden{
-
+.title-hidden {
 }
 /* Portfolio Photos */
-.portfolio-photos{
-
+.portfolio-photos {
 }
-.photo-link{
-    color: inherit;
+.photo-link {
+  color: inherit;
 }
 .portfolio-photos .photo-link:hover,
 .portfolio-photos .photo-link:focus,
-.portfolio-photos .photo-link:active{
-    color: var(--accent-color);
-    
+.portfolio-photos .photo-link:active {
+  color: var(--accent-color);
 }
 
-.photo-title{
-    color: var(--title-text-color);
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+.photo-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
-.photo-text{
-    font-size: 16px;
-    line-height: 1.87;
+.photo-text {
+  font-size: 16px;
+  line-height: 1.87;
 }
