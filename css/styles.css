@@ -213,6 +213,7 @@ footer {
 .buttons-section {
 }
 .button-portfolio {
+  font-family: Roboto, sans-serif;
   color: var(--title-text-color);
   background-color: #f5f4fa;
   font-weight: 500;
