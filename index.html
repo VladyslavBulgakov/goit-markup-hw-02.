@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <link
+      rel="preconnect"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,32 +21,33 @@
     <!--Header-->
     <header>
       <!--Navigation section-->
-      <nav class="nav-section">
-        <a href="/" class="logo"> <span class="accent">Web</span>Studio</a>
+      <nav>
+        <a href="/" class="header-logo"><span class="accent-logo">Web</span>Studio</a>
 
         <!--Menu of navigation-->
-        <ul class="site-nav">
-          <li><a href="" class="link current">Студия</a></li>
-          <li><a href="portfolio.html" class="link">Портфолио</a></li>
+        <ul class="nav-section">
+          <li><a href="" class="link studio-title">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
 
-      <!--Contact section-->
-      <ul class="auth-nav">
+      <!--Contacts-->
+      <ul class="contacts">
         <li>
-          <a href="mailto:info@devstudio.com" class="auth-link">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="contact-email">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+380961111111" class="auth-link">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="contact-phone">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
 
     <!--Main section-->
     <main>
-      <section class="hero">
-        <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+      <!-- Hero -->
+      <section class="hero-section">
+        <h1 class="hero-text">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
         <button type="button" class="order">Заказать услугу</button>
       </section>
 
@@ -51,40 +56,36 @@
         <!--Через сss скрыт заголовок этой секции-->
         <h2>Наши преимущества</h2>
 
-        <ul class="features">
+        <ul class="features-list">
           <li>
             <h3 class="features-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-            <p class="fitures-text">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
+            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
           <li>
             <h3 class="features-title">ПУНКТУАЛЬНОСТЬ</h3>
-            <p class="fitures-text">
+            <p class="features-text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li>
             <h3 class="features-title">ПЛАНИРОВАНИЕ</h3>
-            <p class="fitures-text">
+            <p>
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li>
             <h3 class="features-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-            <p class="fitures-text">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
+            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
       </section>
 
-      <!--Photos of main duties-->
-      <section class="gallery-section">
+      <!--Our duties-->
+      <section class="duties-section">
         <h2>Чем мы знимаемся</h2>
 
         <!--Photos of duties-->
-        <ul class="">
+        <ul>
           <li>
             <img
               src="./images/img-1.jpg"
@@ -112,12 +113,12 @@
         </ul>
       </section>
 
-      <!--Our team-->
+      <!--Team-->
       <section class="team-section">
-        <h2 class="our-team">Наша команда</h2>
+        <h2>Наша команда</h2>
 
         <!--Photos of our team-->
-        <ul class="">
+        <ul class="team-photos">
           <li>
             <img
               src="./images/img-1.1.jpg"
@@ -126,7 +127,7 @@
               height="260"
             />
             <h3 class="name">Игорь Демьяненко</h3>
-            <p class="departament" lang="en">Product Designer</p>
+            <p class="job" lang="en">Product Designer</p>
           </li>
           <li>
             <img
@@ -136,7 +137,7 @@
               height="260"
             />
             <h3 class="name">Ольга Репина</h3>
-            <p class="departament" lang="en">Frontend Developer</p>
+            <p class="job" lang="en">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -146,7 +147,7 @@
               height="260"
             />
             <h3 class="name">Николай Тарасов</h3>
-            <p class="departament" lang="en">Marketing</p>
+            <p class="job" lang="en">Marketing</p>
           </li>
           <li>
             <img
@@ -156,7 +157,7 @@
               height="260"
             />
             <h3 class="name">Михаил Ермаков</h3>
-            <p class="departament" lang="en">UI Designer</p>
+            <p class="job" lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -164,9 +165,9 @@
 
     <!--Footer-->
     <footer>
-      <a href="/" class="footer-logo"> <span class="accent">Web</span>Studio</a>
+      <a href="/" class="footer-logo"> <span class="accent-logo">Web</span>Studio</a>
       <address>
-        <ul class="footer-links">
+        <ul class="footer-contacts">
           <li>
             <a
               href="https://goo.gl/maps/4b7uez3o3h5r4u1Y7"
@@ -177,8 +178,8 @@
               г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
-          <li><a href="mailto:info@example.com" class="link">info@example.com</a></li>
-          <li><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
+          <li><a href="mailto:info@example.com" class="footer-email">info@example.com</a></li>
+          <li><a href="tel:+380991111111" class="footer-phone">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>
