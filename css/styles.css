@@ -150,13 +150,13 @@ button {
 }
 .team-photos {
 }
-.name {
+.team-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
-.job {
+.team-job {
   font-size: 16px;
   line-height: 1.18;
 }
